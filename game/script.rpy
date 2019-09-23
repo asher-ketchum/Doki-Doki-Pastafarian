@@ -22,6 +22,8 @@ label start:
 
     # These display lines of dialogue.
 
+    e "The longer you leave me the more powerful i will become"
+
     e "You've created a new Ren'Py game."
 
     e "Once you add a story, pictures, and music, you can release it to the world!"
