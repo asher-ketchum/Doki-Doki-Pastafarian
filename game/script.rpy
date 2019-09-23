@@ -17,7 +17,7 @@ label start:
 
     me "What is my purpose right now...."
 
-    show Mark
+    show mark
 
     me "Why's there some jackass wearing a colander on his head?"
     "That won't even keep the rain off of him."
@@ -31,11 +31,17 @@ label start:
     m "No I'm just trying to spread the word after all I just became the new minister for the Church of the Flying Spaghetti Monster around the corner."
 
     me "Yeah ok man. See ya."
-
-    scene
-
+    stop music
+    scene kitchen
+    with dissolve
     me "Well that was freaking weird. Not everyday some guy with a colander on his head trys to get you to worship a Giant Spaghetti Monster."
     "Well at least all that is behind me now that i'm home."
+
+
+    scene spaghetti
+    play sound "spaghetclip.mp3"
+    me "where'd this spaghetti come from"
+    "What kind of creep makes a bowl of spaghetti then leaves the house"
 
 
 
