@@ -76,6 +76,45 @@ label start:
     scene bar
     with Dissolve(.5)
 
+    me "Glad it's not crowded in here today, but where the hell is Rick?"
+
+    r "What's up man?"
+
+    show rick
+
+    me "Oh there you are man. It's a long story lets sit down and get a drink first."
+    "(I tell Rick everything that's happened over the past day.)"
+
+    "...... and then I called you  and here we are."
+
+    r "That's uh quite the story, and you better not be high right now because I've been tying to get you to smoke stones with me for years so I'm gonna be pissed if it turns out you just got high without me."
+
+    me "For the last time I'm not high unless that nut job drugged me somehow, and I will never smoke stone
+     with you. I don't care how much fun you say it is to smoke it and then stare out your peephole and just freak the f*** out."
+
+    r "Fine then lets just drink to forget."
+
+    me "(A few hours of revelry later)"
+
+    r "You know I was thinking all this started because of that guy Mark so what do you say we teach him a lesson?"
+
+    menu:
+        "What should I do?"
+
+
+        "Teach that collandar wearing dick a lesson.":
+            "Yeah let's go kick his ass."
+            jump Sin
+
+
+        "No I should rethink my purpose for being alive.":
+            "Actually I do want to see Mark, but just to talk. I'll see you later."
+
+
+    scene bg church
+
+
+
 
 
 
