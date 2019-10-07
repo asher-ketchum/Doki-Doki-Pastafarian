@@ -1,7 +1,4 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
+﻿
 
 define m = Character("Mark")
 define f = Character("Flying Spaghetti Monster")
@@ -11,18 +8,18 @@ define r = Character("Rick")
 
 
 
-# The game starts here.
+
 
 label start:
-    scene bg rain
-    play music "rain.mp3"
+    scene bg church
+    play music "Hymm.mp3"
 
     me "What is my purpose right now...."
 
     show mark
 
     me "Why's there some jackass wearing a colander on his head?"
-    me "That won't even keep the rain off of him."
+
 
     m "Hey man have you heard of the religious sensation that's sweeping the nation."
     m "The being that has boiled for our sins."
@@ -115,20 +112,5 @@ label start:
 
 
 
-
-
-
-
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
-
-
-    # These display lines of dialogue.
-
-
-
-    # This ends the game.
 
     return
